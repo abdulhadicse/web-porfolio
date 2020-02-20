@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -11,12 +13,27 @@ h1{
 }
 
 .half_width{
-    width: 42%;
+    width: 40%;
     margin-left: 5%;
     padding-left: 2%;
+    padding-right: 2%;
     float: left;
 }
 
+.half_width p{
+    text-align: justify;
+}
+
 .half_width img{
-    width: 100%;
+    width: 80%;
+}
+
+.top_banner{
+    background-image: url("assets/img/top-banner.png");
+    background-repeat: no-repeat;
+    
+}
+
+section{
+    height: 500px;
 }
