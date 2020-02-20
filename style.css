@@ -83,7 +83,7 @@ section{
 }
 
 #junior_stack{
-    border-left: 7px solid;
+    border-left: 7px dashed;
     border-image: linear-gradient(180deg, #0CEDC8, #3A97F7);
     border-image-slice: 1;
 }
