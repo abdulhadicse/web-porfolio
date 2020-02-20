@@ -36,7 +36,7 @@ h1{
 
 section{
     height: 600px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     overflow: hidden;
 }
 
@@ -62,4 +62,35 @@ section{
 
 .dream_banner .half_width img{
     width: 100%;
+}
+
+.experience .half_width{
+    box-shadow: 10px 10px 15px gray;
+    background-color: white;
+}
+
+.experience{
+    background-image: url("assets/img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+}
+
+#junior_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+
+.experience h2{
+    margin-left: 6%;
+}
+
+footer p{
+    text-align: center;
 }
